@@ -1,0 +1,111 @@
+/* .App {
+  text-align: center;
+} */
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.fa{
+  font-size: 40px;
+}
+.head{
+  border: 0px solid red;
+  width: 100%;
+  font-size: 22px;
+  display: flex;
+  padding: 0px 4px;
+  background-color: black;
+  opacity: 0.8;
+  color: white;
+}
+.head div{
+  border: 0px solid red;
+  width: 100%;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+  padding: 3px 4px;
+}
+.head div:nth-child(2){
+  justify-content: space-evenly;
+}
+td{
+  cursor: pointer;
+}
+.canvas{
+  background-color: whitesmoke;
+  padding-bottom: 20px;
+}
+.canvas-dark{
+  background-color: rgb(58, 58, 58);
+  padding-bottom: 20px;
+}
+.body{
+  background-image: url(https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+  background-size: cover;
+}
+.overlay {
+  /* background-color: rgba(53, 53, 53, 0.626); */
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.overlay-dark {
+  background-color: rgba(53, 53, 53, 0.626);
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+img {
+  width: 150px;
+  margin-bottom: 15px;
+  border-radius: 50%;
+}
+.fa {
+  font-size: 26px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.detail{
+  border: 0px solid red;
+  max-width:80%;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: -190px;
+  background-color: white;
+  color: gray;
+  
+}
+.detail-dark{
+  background-color: rgb(51, 51, 51);
+  margin-top: -190px;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  max-width: 80%;
+}
+.btn {
+  position: absolute;
+  top: 5px;
+  right: 25px;
+  background-color: #333333;
+  border: 1px solid #333333;
+  color: white;
+  /* border-radius: 40%; */
+  outline: none;
+}
+.icons{
+  color: black;
+}
+.icons-dark{
+  color: white;
+}
